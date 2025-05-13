@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #000000, #ff007f);
+  color: #fff;
+}
+
+header {
+  background: #000000;
+  color: #ff007f;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+}
+
+.upload-container {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+}
+
+.upload-container h2 {
+  color: #ff007f;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ff007f;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ff007f;
+  border-radius: 5px;
+  background: #000000;
+  color: #fff;
+}
+
+.upload-button {
+  background: linear-gradient(90deg, #ff007f, #000000);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-button:hover {
+  background: linear-gradient(90deg, #000000, #ff007f);
+  transform: scale(1.05);
+}
+
+.response-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #ff007f;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #000000;
+  color: #ff007f;
+  font-size: 14px;
+}
